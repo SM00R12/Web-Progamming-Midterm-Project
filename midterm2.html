@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="midtermstyles2.css">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel|Lato&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		</head>
+	<body>
+		<div class="w3-card-4">
+			<div class="w3-container w3-theme w3-card w3-center">
+				
+  						<img src="img/logo.png" alt="ung logo" class="w3-image" style="width:100%max-width:400px";>
+  				
+  				<h1>UNG COMPUTER SCIENCE CLUB</h1>
+			</div>
+
+			<!-- NAVIGATION BAR -->
+
+			<div class="nav w3-bar w3-card-4 w3-theme-d4">
+				<!-- Dropdown Menu in W3 -->				    			
+				<a href="#" class="w3-bar-item w3-button w3-mobile w3-theme" style="width:15%">Home</a>
+				<a href="#" class="w3-bar-item w3-button w3-mobile w3-theme" style="width:15%">Cyber News</a>
+				<div class="w3-dropdown-hover w3-theme-d4">
+    				<button class="w3-button">Events</button>
+    					<div class="w3-dropdown-content w3-bar-block w3-card-4 w3-theme">
+      						<a href="https://codebreaker.ltsnet.net/home" class="w3-bar-item w3-button">NSA CodeBreaker</a>
+      						<a href="https://www.hackerhalted.com/" class="w3-bar-item w3-button">Hacker Halted</a>
+      						<a href="https://www.eventbrite.com/e/fintech-2019-university-summit-tickets-69806299521" class="w3-bar-item w3-button">FinTech Summit</a>
+    					</div> 
+						</div>
+				<div class ="w3-dropdown-hover w3-theme-d4">
+					<button class="w3-button">Career Opportunities</button>
+						<div class="w3-dropdown-content w3-bar-block w3-card-4 w3-theme">
+							<div class="w3-dropdown-hover w3-theme-d4">
+							<button class="w3-button">Public</button>
+							<a href="#" class="w3-bar-item w3-button">NSA </a>
+							<a href="#" class="w3-bar-item w3-button">FBI </a>
+      					</div>
+							<div class="w3-dropdown-hover w3-theme-d4">
+							<button class="w3-button">Private</button>
+							<a href="#" class="w3-bar-item w3-button">Amazon </a>
+							<a href="#" class="w3-bar-item w3-button">Google </a>
+						</div>
+						
+					</div>
+    			</div>
+				</div>
+				
+						
+    			</div>			
+				<!-- Search Bar -->
+				<input type="text" class="w3-bar-item w3-input" placeholder="Search..">
+  				<a href="#" class="w3-bar-item w3-button w3-theme">Go</a>
+			</div>
+
+			<!-- Button if we ever need one --> 
+       		<ul class="w3-ul w3-border-top">
+  				<li class="w3-theme-l5">
+  					<a class="w3-button w3-xlarge w3-circle w3-theme-action" style="position:fixed;top:48px;right:24px;">JOIN</a>
+<div class="row">
+<div class= "span">
+<h3> Schedule an Advising Appointment</h3>
+<a target ="_blank" href ="https://calendar.google.com/calendar/r?pli=1">
+<img src ="calender.jpg" alt = "calendar" width: "600">
+<p>Explore your future in Computer Science</p>
+</div>
+<div class = "span">
+<h3> Member of the Week</h3>
+<a target ="_blank" href= "monica.jpg">
+<img src ="monica.jpg" alt ="Monica Geller" width:"600">
+<p> Monica Geller</p>
+<p> Class:Junior</p>
+<p> Major:Computer Science</p>
+</div>
+<div class ="span">
+<h3>Meet the Instructors</h3>
+<a target ="_blank" href ="https://ung.edu/directory/?name=&department=Computer+Science+and+Information+Systems&campus=Dahlonega">
+<img src ="professor.jpg" alt ="professor" width: "600">
+<p> Get to know us!</p>
+</div>
+  <div class="leftcolumn">
+    <div class="box">
+      <h2>Whats New</h2>
+      <p> Today: <span id="datetime"></span></p>
+	  <script>
+	  var dt = new Date();
+	  document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+	  </script>
+	  <h4>Happening this week</h4>
+      <a target = "_blank" href = "https://www.hackerhalted.com/" ><img src ="./hacker.jpg" style="height:250px; position: center;"></a>
+      <h4> Hacker Halted</h4>
+      <p>This Thursday and Friday,October 10th and 11th, will be this year's Hacker Halted event. Hacker Halted is free to all students
+	  who have a valid UNG ID. Attending is also an excused abscence from all classes on Thursday and Friday, so please attend! 
+	  This event is a great way to learn more about the world of Cybersecurity. Email our secretary Pheobe Buffay if you have any questions.
+	  Hope to see everyone there!</p>
+    </div>
+    <div class="box">
+      <h2>Who we are.</h2>
+      <a><img src ="./abegaz.jpg" style= "height: 200px; width: auto;" ></a>
+      <p>Founded in 2017, the Computer Science Club at UNG Dahlonega is a University
+	  sponsored organization dedicated to educating and empowering students who are
+	  eager to learn more about Computer Science and Cybersecurity. We participate in multiple
+	  events throughout the school year and aide in the profesional and academic development
+	  of our members through weekly hands-on learning based activies. We strive to create a community
+	  of like-minded indviduals and provide them with career builiding opporunities.</p>
+      <p></p>
+    </div>
+	  <div class ="box">
+  <h3> Check out the Majors and Minors for Computer Science!</h3>
+  <div class = "lilbox">
+  <a href "https://ung.edu/mike-cottrell-college-of-business/academic-programs/majors/computer-science-degree.php">
+  <p> Major in Computer Science </p></a>
+  </div>
+  <div class = "lilbox">
+  <a href "https://ung.edu/mike-cottrell-college-of-business/academic-programs/majors/cybersecurity-degree.php">
+  <p> Major in Cybersecurity</p></a></div>
+  <div class ="lilbox">
+  <a href "https://ung.edu/mike-cottrell-college-of-business/academic-programs/business-minors/computer-science-minor.php">
+  <p> Minor in Computer Sciene</p></a></div>
+  <div class = "lilbox">
+  <a href "https://ung.edu/mike-cottrell-college-of-business/academic-programs/business-minors/cyber-security-minor.php">
+  <p> Minor in Cybersecurity</p></a></div>
+  
+  
+</div>
+  </div>
+  
+  <div class="rightcolumn">
+    <div class="box">
+      <h2>National Winners!</h2>
+	  <div class = "place">
+	  <a target= "_blank" href-"4th.jpg">
+	  <img src= "4th.jpg" alt = "4thplace">
+	  </div>
+      <p>This year members of our Computer Science placed 4th in the Nation for their work in a Network Security competition.
+	  </p>
+    </div>
+    <div class="box">
+      <h3>Meet our Officers</h3>
+	  <h5 class = "member" > <b> President: </b> <br>Ross Geller </h5>
+      <a><img class = "members" src ="./RossGelle.jpg"></a>
+	  <h5 class = "member"> <b>Secretary:</b><br> Phoebe Buffay </h5>
+	  <a><img class ="members" src ="./phoeb.jpg"></a>
+	  <h5 class = "member"><b> Treasurer: </b><br> Joey Tribbiani</h5>
+      <a><img class="members" src="./joey.jpg "></a>  
+    </div>
+    
+</div>
+<div class ="bottom row">
+<div class= "span2">
+<h3> Weekly Meeting</h3>
+<h5> Wednesday:12:00-12:55pm</h5>
+<h6> Newton Oaks Room 0129 </h6>
+<a><img src ="newton.jpg" ></a>
+</div>
+<div class = "span2">
+<h3> Join us: </h3>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="last name..">
+	<label for="subject">Email</label>
+    <textarea id="subject" name="subject" placeholder="Email.."></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+<div class ="span2">
+  <h3>Follow UNG Computer Science Club's Adventures</h3>
+      <a href "#" class = "fa fa-facebook"></a>
+	  <a href "#" class = "fa fa-twitter"></a>
+	  <a href "#" class = "fa fa-instagram"></a>
+</div>
+<div class ="span2">
+<h3>???? SOmething Interesting?</h3>
+</div>
+</div>
+</div>
+<div class="w3-container w3-theme w3-card w3-center">
+   <ul class="w3-ul w3-hoverable">
+    <li class="w3-hover-text-theme">
+    <a href="https://ung.edu/landing/resources.php">Student Resources</a>
+          </li>
+      <li class="w3-hover-text-theme">
+          <a href="https://ung.edu/landing/quicklinks.php">Quick Links</a>
+
+   
+      </li>
+      <li class="w3-hover-text-theme">
+          <a href="https://ung.edu/landing/ung-contact-information.php">Contacts</a>
+      </li>
+      <li class="w3-hover-text-theme">
+          <a href="https://ung.edu/landing/admissions.php">Admissions</a>
+      </li>
+      <li class="w3-hover-text-theme">
+          <a href="https://ung.edu/campuses/index.php">Maps and Directions</a>
+      </li>
+   </ul>
+  </div>
+
+
+</body>
+</html>
