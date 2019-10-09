@@ -1,4 +1,8 @@
-/* This is a CSS file for use in our project for formatting.*/
+/* Web Programming Midterm Project
+
+Stephen Moore
+Riane Hood
+Lois Odion*/
 
 /* 
 	Font Family DO NOT DELETE
@@ -115,10 +119,11 @@ div.span:hover {
 }
 .lilbox {
 	float: left;
-	background-color: ;
+	background-color: #192856;
 	width: 20%;
 	padding: 20px;
 	margin: 2%;
+	border-radius: 2%;
 }
 
 div.place img {
